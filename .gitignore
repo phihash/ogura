@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Supabase local files
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+haiku/Config/SupabaseSecrets.swift

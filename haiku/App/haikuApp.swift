@@ -7,7 +7,7 @@ struct haikuApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $path) {
-                HomeView(path: $path)
+                DailyPoemView(path: $path)
                     .appNavigationDestinations()
             }
             .appAppearance()

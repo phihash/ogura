@@ -15,4 +15,4 @@ xcuserdata/
 supabase/.branches/
 supabase/.temp/
 supabase/.env
-haiku/Config/SupabaseSecrets.swift
+haiku/Shared/Config/SupabaseSecrets.swift

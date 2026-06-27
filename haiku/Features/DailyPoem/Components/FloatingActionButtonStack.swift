@@ -29,9 +29,9 @@ private struct FloatingActionButton: View {
     var body: some View {
         Button(action: action) {
             Image(systemName: systemName)
-                .font(.system(size: 22, weight: .bold))
+                .font(.system(size: 18, weight: .bold))
                 .foregroundStyle(AppColors.fabForeground)
-                .frame(width: 56, height: 56)
+                .frame(width: 48, height: 48)
                 .background(AppColors.fabBackground)
                 .clipShape(Circle())
                 .shadow(color: .black.opacity(0.16), radius: 10, x: 0, y: 6)

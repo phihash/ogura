@@ -14,6 +14,8 @@ extension View {
                 }
             case .record:
                 RecordAccessView()
+            case .settings:
+                SettingsView()
             }
         }
     }

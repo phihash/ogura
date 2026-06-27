@@ -19,4 +19,5 @@ enum AppRoute: Hashable {
     case hyakuninIsshu
     case poemDetail(Int)
     case record
+    case settings
 }
